@@ -1,0 +1,313 @@
+[Root]
+Most Recent Package=狥エó穨
+
+
+[Package|夹非|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\Doc
+
+[Package|夹非|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|夹非|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|夹非|Files Found]
+
+[Package|夹非|Files Released]
+
+[Package|夹非|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|夹非|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|夹非|Files Added]
+
+[Package|夹非|Files Removed]
+
+[Package|夹非|Files In Project]
+G:\dbedit.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6CHT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\ADODCCHT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\TABCTCHT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\DBRPRCHT.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\CMDLGCHT.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|夹非|Configure Registry Files]
+Applicable=No
+
+[Package|夹非|Configure Remote Servers]
+Applicable=No
+
+[Package|夹非|Install Locations]
+G:\dbedit.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6CHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRCHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDO20CHT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|夹非|Configure Shared Files]
+Applicable=Yes
+G:\dbedit.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|夹非|Distribution]
+Type=single
+Size=
+Title=db
+
+[Package|夹非|IconGroups]
+Group0=db
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|夹非|db]
+Icon1=dbedit.exe
+Title1=db
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|夹非|Package]
+PackageFolder=G:\Doc
+ProjectFolder=G:\Lv\Lv
+ServerSideCab=
+File1=G:\Doc\setup.exe
+File2=G:\Doc\Setup.Lst
+File3=G:\Doc\dbedit.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|狥エó穨|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\SVN\CarMaintain_CRM\trunk\package
+
+[Package|狥エó穨|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|狥エó穨|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|狥エó穨|Files Found]
+dbfile.mdb=E:\SVN\CarMaintain_CRM\trunk\src\dbfile.mdb
+
+[Package|狥エó穨|Files Released]
+
+[Package|狥エó穨|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|狥エó穨|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|狥エó穨|Files Added]
+dbfile.mdb=
+
+[Package|狥エó穨|Files Removed]
+
+[Package|狥エó穨|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\Vb6cht.dll=Yes
+C:\WINDOWS\system32\ADODCCHT.DLL=Yes
+C:\WINDOWS\system32\TABCTCHT.DLL=Yes
+C:\WINDOWS\system32\DBRPRCHT.DLL=Yes
+C:\WINDOWS\system32\CMDLGCHT.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\WINDOWS\system32\RDO20CHT.DLL=Yes
+E:\SVN\CarMaintain_CRM\trunk\src\dbedit.exe=Yes
+E:\SVN\CarMaintain_CRM\trunk\src\dbfile.mdb=Yes
+
+[Package|狥エó穨|Configure Registry Files]
+Applicable=No
+
+[Package|狥エó穨|Configure Remote Servers]
+Applicable=No
+
+[Package|狥エó穨|Install Locations]
+G:\dbedit.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6CHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\ADODCCHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBRPRCHT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGCHT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDO20CHT.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\samejack\dbedit.exe=$(AppPath)
+C:\Documents and Settings\samejack\\dbedit.exe=$(AppPath)
+D:\Source Code\vb.file\dbedit.exe=$(AppPath)
+D:\Source Code\vb.file\db edit\dbfile.mdb=$(AppPath)
+D:\SourceCode\VisualBasic\db_edit\v2\dbedit.exe=$(AppPath)
+D:\SourceCode\VisualBasic\db_edit\v2\dbfile.mdb=$(AppPath)
+E:\SVN\CarMaintain_CRM\trunk\src\dbedit.exe=$(AppPath)
+E:\SVN\CarMaintain_CRM\trunk\src\dbfile.mdb=$(AppPath)
+
+[Package|狥エó穨|Configure Shared Files]
+Applicable=Yes
+G:\dbedit.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Documents and Settings\samejack\dbedit.exe=Yes
+C:\Documents and Settings\samejack\\dbedit.exe=No
+D:\Source Code\vb.file\dbedit.exe=No
+D:\Source Code\vb.file\db edit\dbfile.mdb=No
+D:\SourceCode\VisualBasic\db_edit\v2\dbedit.exe=No
+D:\SourceCode\VisualBasic\db_edit\v2\dbfile.mdb=No
+E:\SVN\CarMaintain_CRM\trunk\src\dbedit.exe=Yes
+E:\SVN\CarMaintain_CRM\trunk\src\dbfile.mdb=Yes
+
+[Package|狥エó穨|Distribution]
+Type=single
+Size=1.44 MB
+Title=狥エó穨
+
+[Package|狥エó穨|IconGroups]
+Group0=狥エó穨
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|狥エó穨|狥エó穨]
+Icon1=dbedit.exe
+Title1=狥エó穨
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|狥エó穨|Package]
+PackageFolder=E:\SVN\CarMaintain_CRM\trunk\package
+ProjectFolder=E:\SVN\CarMaintain_CRM\trunk\src
+ServerSideCab=
+File1=E:\SVN\CarMaintain_CRM\trunk\package\setup.exe
+File2=E:\SVN\CarMaintain_CRM\trunk\package\Setup.Lst
+File3=E:\SVN\CarMaintain_CRM\trunk\package\dbedit.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
